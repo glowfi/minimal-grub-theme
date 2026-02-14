@@ -40,7 +40,7 @@ install: ## Install theme
 	fi
 
 	@echo "INFO: Updating grub"
-	@sudo update-grub
+	@sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 uninstall: ## Uninstall theme
 	@echo "INFO: Removing '${THEME_NAME}' from '${THEME_DIR}'"
@@ -52,16 +52,16 @@ uninstall: ## Uninstall theme
 	fi
 
 	@echo "INFO: Updating grub"
-	@sudo update-grub
+	@sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 ##
 
-emulator/init: ## Setup emulator
-	sudo apt install grub-common qemu-system-x86 ovmf mtools
-	pip install grub2-theme-preview 
+# emulator/init: ## Setup emulator
+# 	sudo apt install grub-common qemu-system-x86 ovmf mtools
+# 	pip install grub2-theme-preview 
 
-emulator/start: ## Start emulator
-	grub2-theme-preview minimal
+# emulator/start: ## Start emulator
+# 	grub2-theme-preview minimal
 
-emulator/version: ## Check emulator version
-	grub2-theme-preview --version
+# emulator/version: ## Check emulator version
+# 	grub2-theme-preview --version
