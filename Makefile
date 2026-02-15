@@ -1,7 +1,7 @@
-.PHONY: install uninstall emulator/init emulator/start emulator/version
+.PHONY: install uninstall
 .DEFAULT_GOAL := help
 
-NAMESPACE := tomdewildt
+NAMESPACE := glowfi
 NAME := minimal-grub-theme
 
 THEME_NAME := minimal
@@ -13,8 +13,6 @@ help: ## Show this help
 	@echo
 	@fgrep -h "##" $(MAKEFILE_LIST) | \
 	fgrep -v fgrep | sed -e 's/## */##/' | column -t -s##
-
-##
 
 install: ## Install theme
 	@echo "INFO: Saving config as ${GRUB_CONFIG}.backup"
@@ -53,15 +51,3 @@ uninstall: ## Uninstall theme
 
 	@echo "INFO: Updating grub"
 	@sudo grub-mkconfig -o /boot/grub/grub.cfg
-
-##
-
-# emulator/init: ## Setup emulator
-# 	sudo apt install grub-common qemu-system-x86 ovmf mtools
-# 	pip install grub2-theme-preview 
-
-# emulator/start: ## Start emulator
-# 	grub2-theme-preview minimal
-
-# emulator/version: ## Check emulator version
-# 	grub2-theme-preview --version

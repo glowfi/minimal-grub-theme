@@ -1,35 +1,102 @@
-# Minimal GRUB Theme
-[![Version](https://img.shields.io/github/v/release/tomdewildt/minimal-grub-theme?label=version)](https://github.com/tomdewildt/minimal-grub-theme/releases)
-[![Release](https://img.shields.io/github/actions/workflow/status/tomdewildt/minimal-grub-theme/cd.yml?label=release)](https://github.com/tomdewildt/minimal-grub-theme/actions/workflows/cd.yml)
-[![License](https://img.shields.io/github/license/tomdewildt/minimal-grub-theme)](https://github.com/tomdewildt/minimal-grub-theme/blob/master/LICENSE)
+<div align="center">
 
-Minimalistic GRUB theme insipired by [primitivistical](https://gitlab.com/fffred/primitivistical-grub/-/tree/master/) and [vimix](https://github.com/vinceliuice/grub2-themes).
+# 🧩 Minimal GRUB Theme
 
-# How To Install
+Minimalistic GRUB theme inspired by  
+[primitivistical](https://gitlab.com/fffred/primitivistical-grub/-/tree/master/) •
+[vimix](https://github.com/vinceliuice/grub2-themes)
 
-Prerequisites:
-* grub version ```2.0.4``` or later
-  
-### Install
+![Version](https://img.shields.io/github/v/release/tomdewildt/minimal-grub-theme?label=version)
+![Release](https://img.shields.io/github/actions/workflow/status/tomdewildt/minimal-grub-theme/cd.yml?label=release)
+![License](https://img.shields.io/github/license/tomdewildt/minimal-grub-theme)
 
-1. Run ```make install``` to install the theme.
+</div>
 
-### Uninstall
+---
 
-1. Run ```make uninstall``` to uninstall the theme.
+## ✨ Overview
 
-Run ```make emulator/init``` once to setup the emulator then run ```make emulator/start``` to start the emulator and ```make emulator/version``` to view the emulator version.
+A clean and distraction-free **GRUB bootloader theme** focused on minimal design and readability.
 
-# Preview
+Designed to provide a modern boot experience without unnecessary visual noise.
 
-![Preview](/preview.png?raw=true)
+---
 
-# References
+## 🖥 Preview
 
-[GRUB Manual](https://www.gnu.org/software/grub/manual/grub/grub.html)
+<p align="center">
+  <img src="preview.png" alt="Theme Preview" width="800"/>
+</p>
 
-[GRUB Theme Preview](https://github.com/hartwork/grub2-theme-preview)
+---
 
-[GRUB Theme Tutorial](http://wiki.rosalab.ru/en/index.php/Grub2_theme_tutorial)
+## 🚀 Installation
 
-[Gnome-Look GRUB Themes](https://www.gnome-look.org/browse/cat/109/order/latest/)
+### Requirements
+
+- **GRUB ≥ 2.04**
+
+---
+
+### Install Theme
+
+```bash
+make install
+```
+
+---
+
+### Uninstall Theme
+
+```bash
+make uninstall
+```
+
+---
+
+## 🧪 Theme Emulator
+
+Preview the theme without rebooting.
+
+### Initial setup
+
+```bash
+make emulator/init
+```
+
+### Start emulator
+
+```bash
+make emulator/start
+```
+
+### Check emulator version
+
+```bash
+make emulator/version
+```
+
+---
+
+## 🎯 Design Goals
+
+- Minimal visual style
+- Fast readability
+- Clean typography
+- Distraction-free boot menu
+- Lightweight configuration
+
+---
+
+## 📚 References
+
+- [GRUB Manual](https://www.gnu.org/software/grub/manual/grub/grub.html)
+- [GRUB Theme Preview Tool](https://github.com/hartwork/grub2-theme-preview)
+- [GRUB Theme Tutorial](http://wiki.rosalab.ru/en/index.php/Grub2_theme_tutorial)
+- [GNOME-Look GRUB Themes](https://www.gnome-look.org/browse/cat/109/order/latest/)
+
+---
+
+## 📄 License
+
+MIT License
