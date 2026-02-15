@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧩 Minimal GRUB Theme
+# Minimal GRUB Theme
 
 Minimalistic GRUB theme inspired by  
 [primitivistical](https://gitlab.com/fffred/primitivistical-grub/-/tree/master/) •
