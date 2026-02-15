@@ -49,30 +49,6 @@ make uninstall
 
 ---
 
-## 🧪 Theme Emulator
-
-Preview the theme without rebooting.
-
-### Initial setup
-
-```bash
-make emulator/init
-```
-
-### Start emulator
-
-```bash
-make emulator/start
-```
-
-### Check emulator version
-
-```bash
-make emulator/version
-```
-
----
-
 ## 🎯 Design Goals
 
 - Minimal visual style
