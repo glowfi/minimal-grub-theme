@@ -1,8 +1,11 @@
 <div align="center">
 
-# Minimal GRUB Theme
+# 🖥️ Minimal GRUB Theme
 
-Minimalistic GRUB theme inspired by  
+<img src="preview.png" alt="Theme Preview" width="800"/>
+
+Minimalistic GRUB theme inspired by
+
 [primitivistical](https://gitlab.com/fffred/primitivistical-grub/-/tree/master/) •
 [vimix](https://github.com/vinceliuice/grub2-themes)
 
@@ -19,14 +22,6 @@ Minimalistic GRUB theme inspired by
 A clean and distraction-free **GRUB bootloader theme** focused on minimal design and readability.
 
 Designed to provide a modern boot experience without unnecessary visual noise.
-
----
-
-## 🖥 Preview
-
-<p align="center">
-  <img src="preview.png" alt="Theme Preview" width="800"/>
-</p>
 
 ---
 
